@@ -1,0 +1,307 @@
+
+body{
+    background-color: black;
+    position: relative;
+    left: -615px;
+    overflow: hidden;
+}
+.circleload{
+    width: 130px;
+    height: 130px;
+    border: 10px solid grey;
+    border-right-color: aquamarine;
+    box-shadow: 0px 0px 36px aquamarine;
+    border-radius: 100px;
+    position: relative;
+    top: -36px;
+    right: -1288px;
+
+    animation: load 3s infinite;
+}
+@keyframes load{
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 720deg;
+    }
+}
+.loading{
+    font-size: 30px;
+    color: aliceblue;
+    position: relative;
+    top: 413px;
+    left: 1288px;
+}
+
+.dot1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: white;
+    margin-top: 450px;
+    position: relative;
+    right: -843px;
+    animation: dot 3s infinite;
+    animation-delay: 1s;
+}
+@keyframes dot{
+    0%{
+        top: 0px;
+    }
+    50%{
+        top: -50px;
+    }
+    100%{
+        top: 0px;
+    }
+}
+.dot2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: white;
+    margin-top: 450px;
+    position: relative;
+    right: -856px;
+    animation: dot2 3s infinite;
+    animation-delay: 0.5s;
+}
+@keyframes dot2{
+    0%{
+        top: 0px;
+    }
+    50%{
+        top: -50px;
+    }
+    100%{
+        top: 0px;
+    }
+}
+.dot3{
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: white;
+    margin-top: 450px;
+    position: relative;
+    right: -870px;
+    animation: dot3 3s infinite;
+    animation-delay: 0s;
+}
+@keyframes dot3{
+    0%{
+        top: 0px;
+    }
+    50%{
+        top: -50px;
+    }
+    100%{
+        top: 0px;
+    }
+}
+section{
+    display: flex;
+    position: relative;
+    top: -56px;
+    left: 600px;
+}
+.E{
+    font-size: 30px;
+    color: rgba(32, 178, 171, 0.096);
+    position: absolute;
+    animation: harf1 5s infinite;
+
+}
+@keyframes harf1{
+    0%{
+        top: 0px;
+        right: 0px;
+
+    }
+    100%{
+        top: 200px;
+        right: 300px;
+        color: lightseagreen;
+    }
+}
+.i{
+    font-size: 30px;
+    color: rgba(32, 178, 171, 0.205);
+    position: absolute;
+    animation: harf2 5s infinite;
+}
+@keyframes harf2{
+    0%{
+        top: 1000px;
+        right: 1500px;
+
+    }
+    100%{
+        top: 200px;
+        right: 260px;
+        color: lightseagreen;
+    }
+}
+.l{
+    font-size: 30px;
+    color: rgba(32, 178, 171, 0.189);
+    position: absolute;
+    animation: harf3 5s infinite;
+}
+@keyframes harf3{
+    0%{
+        top: 750px;
+        right: 500px;
+
+    }
+    100%{
+        top: 200px;
+        right: 230px;
+        color: lightseagreen;
+    }
+}
+.y{
+    font-size: 30px;
+    color: rgba(32, 178, 171, 0.151);
+    position: absolute;
+    animation: harf4 5s infinite;
+}
+@keyframes harf4{
+    0%{
+        top: 300px;
+        right: -500px;
+
+    }
+    100%{
+        top: 200px;
+        right: 200px;
+        color: lightseagreen;
+    }
+}
+.a{
+    font-size: 30px;
+    color: rgba(32, 178, 171, 0.164);
+    position:absolute ;
+    animation: harf5 5s infinite;
+}
+@keyframes harf5{
+    0%{
+        top: -300px;
+        right: -458px;
+
+    }
+    100%{
+        top: 200px;
+        right: 210px;
+        color: lightseagreen;
+    }
+}
+.M{
+    font-size: 30px;
+    color: rgba(32, 178, 171, 0.107);
+    position: absolute;
+    animation: harf6 5s infinite;
+}
+@keyframes harf6{
+    0%{
+        top: 500px;
+        right: -100px;
+
+    }
+    100%{
+        top: 200px;
+        right: 140px;
+        color: lightseagreen;
+    }
+}
+.A1{
+    font-size: 30px;
+    color: rgba(32, 178, 171, 0.169);
+    position: absolute;
+    animation: harf7 5s infinite;
+}
+@keyframes harf7{
+    0%{
+        top: -635px;
+        right: 432px;
+
+    }
+    100%{
+        top: 200px;
+        right: 110px;
+        color: lightseagreen;
+    }
+}
+.S{
+    font-size: 30px;
+    color: rgba(32, 178, 171, 0.11);
+    position: absolute;
+    animation: harf8 5s infinite;
+}
+@keyframes harf8{
+    0%{
+        top: -369px;
+        right: 579px;
+
+    }
+    100%{
+        top: 200px;
+        right: 80px;
+        color: lightseagreen;
+    }
+}
+.T{
+    font-size: 30px;
+    color: rgba(32, 178, 171, 0.231);
+    position: absolute;
+    animation: harf9 5s infinite;
+}
+@keyframes harf9{
+    0%{
+        top: 569px;
+        right: -314px;
+
+    }
+    100%{
+        top: 200px;
+        right: 50px;
+        color: lightseagreen;
+    }
+}
+.E1{
+    font-size: 30px;
+    color: rgba(32, 178, 171, 0.139);
+    position: absolute;
+    animation: harf10 5s infinite;
+}
+@keyframes harf10{
+    0%{
+        top: 346px;
+        right: 986px;
+
+    }
+    100%{
+        top: 200px;
+        right: 20px;
+        color: lightseagreen;
+    }
+}
+.R{
+    font-size: 30px;
+    color: rgba(32, 178, 171, 0.139);
+    position: absolute;
+    animation: harf11 5s infinite;
+}
+@keyframes harf11{
+    0%{
+        top: -475px;
+        right: 89px;
+
+    }
+    100%{
+        top: 200px;
+        right: -10px;
+        color: lightseagreen;
+    }
+}
